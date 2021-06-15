@@ -1,0 +1,11 @@
+.kartica {
+    margin: 0 25%;
+    margin-bottom: 25px;
+    overflow: auto
+}
+
+@media (max-width: 768px){
+    .kartica {
+        margin: 0 9%
+    }
+}

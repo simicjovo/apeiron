@@ -1,0 +1,14 @@
+
+@media (min-width: 769px) {
+.postavke {
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}}
+
+@media (max-width: 768px) {
+    .postavke {
+        padding-left: 0%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,32 @@
+.pitanja {
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+.prikazPitanja {
+    width: 50%;
+    height: 530px;
+    overflow: auto;
+    border-left: 1px outset
+}
+
+@media (max-width: 768px) {
+    .pitanja {
+    display: block; 
+    text-align: center; 
+    padding-left: 0%;
+    padding-right: 5%
+    }
+
+    .prikazPitanja {
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        border-left: 0px;
+        padding-top: 30px;
+        margin-bottom: 30px
+    }
+
+}

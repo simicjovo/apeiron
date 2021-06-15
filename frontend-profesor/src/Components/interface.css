@@ -1,0 +1,13 @@
+.intContainer {
+    display: flex;
+    padding-top: 5%;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .intContainer {
+    flex-direction: row;
+    }
+}

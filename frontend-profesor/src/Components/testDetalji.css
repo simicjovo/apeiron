@@ -1,0 +1,22 @@
+.dugmad {
+    width: 100%;
+    position: fixed;
+    text-align: right;
+    bottom: 10px;
+}
+
+.dugmad > button {
+    margin: 0 3px;
+}
+
+@media (max-width: 768px) {
+    .dugmad {
+        text-align: center;
+
+    }
+}
+@media (max-width: 388px) {
+    .dugmad > button {
+        font-size: 9px
+    }
+}
